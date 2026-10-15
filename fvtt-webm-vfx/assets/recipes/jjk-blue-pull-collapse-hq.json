@@ -1,0 +1,174 @@
+{
+  "name": "jjk-blue-pull-collapse-hq",
+  "canvas": {
+    "width": 1024,
+    "height": 1024,
+    "fps": 30,
+    "duration": 1.6
+  },
+  "seed": 101,
+  "loop": false,
+  "direction": "target-anchored",
+  "anchor": [
+    0.5,
+    0.5
+  ],
+  "quality": {
+    "render_scale": 2
+  },
+  "encoding": {
+    "crf": 20,
+    "deadline": "good",
+    "cpu_used": 1
+  },
+  "layers": [
+    {
+      "type": "ring",
+      "center": [
+        0.5,
+        0.5
+      ],
+      "radius": [
+        0.42,
+        0.12
+      ],
+      "width": 0.01,
+      "pulse": 0.12,
+      "pulse_cycles": 2.0,
+      "color": "#387BFFE0",
+      "glow": 0.026,
+      "start": 0.0,
+      "end": 0.93,
+      "fade_in": 0.0,
+      "fade_out": 0.08,
+      "blend": "add"
+    },
+    {
+      "type": "ring",
+      "center": [
+        0.5,
+        0.5
+      ],
+      "radius": [
+        0.34,
+        0.09
+      ],
+      "width": 0.013,
+      "pulse": 0.16,
+      "pulse_cycles": 2.5,
+      "color": "#57B5FFF0",
+      "glow": 0.028,
+      "start": 0.06,
+      "end": 0.92,
+      "fade_in": 0.0,
+      "fade_out": 0.1,
+      "blend": "add"
+    },
+    {
+      "type": "ring",
+      "center": [
+        0.5,
+        0.5
+      ],
+      "radius": [
+        0.26,
+        0.06
+      ],
+      "width": 0.015,
+      "pulse": 0.18,
+      "pulse_cycles": 3.0,
+      "color": "#A7EBFFFF",
+      "glow": 0.022,
+      "start": 0.16,
+      "end": 0.92,
+      "fade_in": 0.0,
+      "fade_out": 0.1,
+      "blend": "add"
+    },
+    {
+      "type": "converge",
+      "center": [
+        0.5,
+        0.5
+      ],
+      "count": 80,
+      "radius": [
+        0.18,
+        0.48
+      ],
+      "end_radius": 0.014,
+      "size_px": [
+        2,
+        6
+      ],
+      "swirl": 150,
+      "streak": 0.028,
+      "color": "#6BC9FFFF",
+      "core_color": "#ECFCFFFF",
+      "glow": 0.024,
+      "start": 0.0,
+      "end": 0.94,
+      "fade_in": 0.0,
+      "fade_out": 0.06
+    },
+    {
+      "type": "converge",
+      "center": [
+        0.5,
+        0.5
+      ],
+      "count": 48,
+      "radius": [
+        0.1,
+        0.38
+      ],
+      "end_radius": 0.009,
+      "size_px": [
+        1,
+        4
+      ],
+      "swirl": -90,
+      "streak": 0.02,
+      "color": "#BCEFFFFF",
+      "core_color": "#FFFFFFF0",
+      "glow": 0.018,
+      "start": 0.1,
+      "end": 0.95,
+      "fade_in": 0.0,
+      "fade_out": 0.06,
+      "blend": "add"
+    },
+    {
+      "type": "burst",
+      "center": [
+        0.5,
+        0.5
+      ],
+      "radius": [
+        0.01,
+        0.07
+      ],
+      "rays": 20,
+      "ray_length": [
+        0.02,
+        0.09
+      ],
+      "ray_width_px": [
+        2,
+        5
+      ],
+      "color": "#A6EEFFFF",
+      "core_color": "#FFFFFFFF",
+      "glow": 0.03,
+      "start": 0.9,
+      "end": 1.0,
+      "fade_in": 0.0,
+      "fade_out": 0.45,
+      "blend": "add"
+    }
+  ],
+  "fvtt": {
+    "kind": "target impact / convergence",
+    "recommended_playback": "once"
+  }
+}

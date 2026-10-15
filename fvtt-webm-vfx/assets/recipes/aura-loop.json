@@ -1,0 +1,11 @@
+{
+  "name": "aura-loop",
+  "canvas": {"width": 768, "height": 768, "fps": 30, "duration": 2.0},
+  "seed": 29,
+  "loop": true,
+  "layers": [
+    {"type": "ring", "center": [0.5, 0.5], "radius": [0.29, 0.29], "width": 0.018, "pulse": 0.18, "color": "#5AD8EED0", "glow": 0.014, "fade_in": 0.0, "fade_out": 0.0},
+    {"type": "particles", "origin": [0.5, 0.5], "count": 40, "emit": [0.0, 1.0], "lifetime": [0.8, 1.5], "speed": [0.02, 0.08], "angle": [0, 360], "gravity": [0.0, -0.01], "size_px": [2, 5], "color": "#A9F2FFFF", "glow": 0.006, "fade_in": 0.0, "fade_out": 0.0}
+  ],
+  "fvtt": {"kind": "aura", "recommended_playback": "loop"}
+}

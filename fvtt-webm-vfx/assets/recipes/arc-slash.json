@@ -1,0 +1,13 @@
+{
+  "name": "arc-slash",
+  "canvas": {"width": 1024, "height": 1024, "fps": 30, "duration": 0.85},
+  "seed": 17,
+  "loop": false,
+  "direction": "left-to-right",
+  "anchor": [0.5, 0.5],
+  "layers": [
+    {"type": "arc_slash", "center": [0.48, 0.54], "radius": [0.18, 0.40], "angles": [-155, 25], "width": 0.060, "trail": 0.62, "reveal": true, "color": "#2D8FE8D8", "core_color": "#EAF9FFFF", "core_width": 0.24, "glow": 0.020, "fade_in": 0.04, "fade_out": 0.33},
+    {"type": "particles", "origin": [0.55, 0.51], "count": 34, "emit": [0.18, 0.50], "lifetime": [0.18, 0.46], "speed": [0.16, 0.48], "angle": [-35, 40], "gravity": [0.0, 0.05], "size_px": [2, 7], "color": "#A8E6FFFF", "glow": 0.008}
+  ],
+  "fvtt": {"kind": "directional", "recommended_playback": "once"}
+}

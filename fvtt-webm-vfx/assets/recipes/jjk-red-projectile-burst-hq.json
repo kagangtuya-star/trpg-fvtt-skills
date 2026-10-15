@@ -1,0 +1,218 @@
+{
+  "name": "jjk-red-projectile-burst-hq",
+  "canvas": {
+    "width": 1024,
+    "height": 720,
+    "fps": 30,
+    "duration": 0.72
+  },
+  "seed": 303,
+  "loop": false,
+  "direction": "left-to-right",
+  "anchor": [
+    0.5,
+    0.5
+  ],
+  "quality": {
+    "render_scale": 2
+  },
+  "encoding": {
+    "crf": 20,
+    "deadline": "good",
+    "cpu_used": 1
+  },
+  "layers": [
+    {
+      "type": "beam",
+      "from": [
+        0.18,
+        0.5
+      ],
+      "to": [
+        0.7,
+        0.5
+      ],
+      "width": 0.02,
+      "reveal_time": 0.42,
+      "pulse": 0.06,
+      "pulse_cycles": 2.0,
+      "color": "#8C0F0FFF",
+      "core_color": "#F66C6CFF",
+      "glow": 0.014,
+      "start": 0.0,
+      "end": 0.44,
+      "fade_in": 0.0,
+      "fade_out": 0.2,
+      "blend": "add"
+    },
+    {
+      "type": "sprite",
+      "path": "../sprites/red-core.png",
+      "position": [
+        [
+          0.18,
+          0.5
+        ],
+        [
+          0.7,
+          0.5
+        ]
+      ],
+      "scale": [
+        0.1,
+        0.12
+      ],
+      "rotation": [
+        0,
+        24
+      ],
+      "glow": 0.025,
+      "start": 0.0,
+      "end": 0.46,
+      "fade_in": 0.0,
+      "fade_out": 0.18,
+      "blend": "add"
+    },
+    {
+      "type": "burst",
+      "center": [
+        0.7,
+        0.5
+      ],
+      "radius": [
+        0.02,
+        0.17
+      ],
+      "rays": 28,
+      "ray_length": [
+        0.08,
+        0.28
+      ],
+      "ray_width_px": [
+        3,
+        8
+      ],
+      "color": "#FF4848F2",
+      "core_color": "#FFF7F7FF",
+      "glow": 0.032,
+      "start": 0.42,
+      "end": 1.0,
+      "fade_in": 0.0,
+      "fade_out": 0.45,
+      "blend": "add"
+    },
+    {
+      "type": "ring",
+      "center": [
+        0.7,
+        0.5
+      ],
+      "radius": [
+        0.04,
+        0.3
+      ],
+      "width": 0.014,
+      "pulse": 0.0,
+      "color": "#FF4B4BE0",
+      "glow": 0.02,
+      "start": 0.44,
+      "end": 1.0,
+      "fade_in": 0.0,
+      "fade_out": 0.35,
+      "blend": "add"
+    },
+    {
+      "type": "ring",
+      "center": [
+        0.7,
+        0.5
+      ],
+      "radius": [
+        0.02,
+        0.22
+      ],
+      "width": 0.022,
+      "pulse": 0.0,
+      "color": "#741010D0",
+      "glow": 0.016,
+      "start": 0.46,
+      "end": 1.0,
+      "fade_in": 0.0,
+      "fade_out": 0.28
+    },
+    {
+      "type": "particles",
+      "origin": [
+        0.7,
+        0.5
+      ],
+      "count": 42,
+      "emit": [
+        0.44,
+        0.62
+      ],
+      "lifetime": [
+        0.22,
+        0.55
+      ],
+      "speed": [
+        0.18,
+        0.52
+      ],
+      "angle": [
+        0,
+        360
+      ],
+      "gravity": [
+        0.0,
+        0.04
+      ],
+      "size_px": [
+        2,
+        8
+      ],
+      "color": "#FF8080FF",
+      "glow": 0.01,
+      "start": 0.42,
+      "end": 1.0
+    },
+    {
+      "type": "smoke",
+      "origin": [
+        0.7,
+        0.5
+      ],
+      "count": 10,
+      "emit": [
+        0.44,
+        0.66
+      ],
+      "lifetime": [
+        0.25,
+        0.6
+      ],
+      "speed": [
+        0.04,
+        0.14
+      ],
+      "angle": [
+        0,
+        360
+      ],
+      "size": [
+        0.03,
+        0.09
+      ],
+      "color": "#2D00007A",
+      "blur": 0.018,
+      "start": 0.42,
+      "end": 1.0,
+      "fade_in": 0.0,
+      "fade_out": 0.24
+    }
+  ],
+  "fvtt": {
+    "kind": "projectile + impact burst",
+    "recommended_playback": "once"
+  }
+}

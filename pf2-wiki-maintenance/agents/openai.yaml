@@ -1,0 +1,4 @@
+interface:
+  display_name: "PF2 Wiki Maintenance"
+  short_description: "Safely maintain the PF2 HuijiWiki production site"
+  default_prompt: "Use $pf2-wiki-maintenance to inspect or maintain PF2 Wiki pages with production-safe checks."

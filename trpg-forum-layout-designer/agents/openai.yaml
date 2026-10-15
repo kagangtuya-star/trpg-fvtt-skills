@@ -1,0 +1,14 @@
+interface:
+  display_name: TRPG Forum Layout Designer
+  short_description: Designs safe in-post SMF BBCode/CSS layouts for TRPG forum content.
+  icon: book-open
+  brand_color: '#8b0000'
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

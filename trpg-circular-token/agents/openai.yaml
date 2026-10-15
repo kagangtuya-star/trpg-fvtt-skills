@@ -1,0 +1,12 @@
+interface:
+  display_name: TRPG Circular Token
+  short_description: "Create circular VTT tokens or empty frames from images or text"
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

@@ -1,0 +1,4 @@
+interface:
+  display_name: "FVTT 特效 Prompt 优化器"
+  short_description: "将特效想法优化为包含锚点、动画时序、视觉层次与透明 WebM 交付要求的 Prompt"
+  default_prompt: "使用 $fvtt-vfx-prompt-optimizer 将我的特效描述优化为可直接交给 FVTT WebM 制作技能的完整 Prompt，保留原意并明确空间锚点、分阶段运动、视觉层次与交付要求。"

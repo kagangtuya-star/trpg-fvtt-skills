@@ -1,0 +1,12 @@
+{
+  "name": "lightning-impact",
+  "canvas": {"width": 1024, "height": 1024, "fps": 30, "duration": 0.72},
+  "seed": 83,
+  "loop": false,
+  "layers": [
+    {"type": "lightning", "from": [0.16, 0.42], "to": [0.56, 0.52], "segments": 17, "jitter": 0.035, "branches": 5, "width": 0.011, "color": "#55AFFFFF", "core_color": "#F7FDFFFF", "glow": 0.022, "end": 0.70, "fade_out": 0.28},
+    {"type": "burst", "center": [0.57, 0.52], "radius": [0.025, 0.16], "rays": 22, "ray_length": [0.07, 0.22], "ray_width_px": [2, 6], "color": "#74C8FFFF", "core_color": "#FFFFFFFF", "glow": 0.022, "start": 0.16, "fade_in": 0.02, "fade_out": 0.55},
+    {"type": "particles", "origin": [0.57, 0.52], "count": 42, "emit": [0.14, 0.42], "lifetime": [0.20, 0.52], "speed": [0.22, 0.62], "angle": [0, 360], "gravity": [0.0, 0.12], "size_px": [2, 7], "color": "#BDEFFFFF", "glow": 0.006}
+  ],
+  "fvtt": {"kind": "impact", "recommended_playback": "once"}
+}

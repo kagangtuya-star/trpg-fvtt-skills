@@ -1,0 +1,3 @@
+interface:
+  display_name: "PF2e FVTT Automation"
+  short_description: "Cross-platform PF2e Rule Elements, inline rolls, macros, modules, and source-aware setup"

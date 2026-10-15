@@ -1,0 +1,219 @@
+{
+  "name": "jjk-red-charge-core-hq",
+  "canvas": {
+    "width": 768,
+    "height": 768,
+    "fps": 30,
+    "duration": 1.5
+  },
+  "seed": 202,
+  "loop": false,
+  "direction": "self-anchored",
+  "anchor": [
+    0.5,
+    0.5
+  ],
+  "quality": {
+    "render_scale": 2
+  },
+  "encoding": {
+    "crf": 20,
+    "deadline": "good",
+    "cpu_used": 1
+  },
+  "layers": [
+    {
+      "type": "smoke",
+      "origin": [
+        0.5,
+        0.5
+      ],
+      "count": 12,
+      "emit": [
+        0.0,
+        0.78
+      ],
+      "lifetime": [
+        0.55,
+        1.2
+      ],
+      "speed": [
+        0.01,
+        0.05
+      ],
+      "angle": [
+        0,
+        360
+      ],
+      "size": [
+        0.04,
+        0.13
+      ],
+      "color": "#25000088",
+      "blur": 0.02,
+      "start": 0.0,
+      "end": 1.0,
+      "fade_in": 0.0,
+      "fade_out": 0.1
+    },
+    {
+      "type": "ring",
+      "center": [
+        0.5,
+        0.5
+      ],
+      "radius": [
+        0.11,
+        0.11
+      ],
+      "width": 0.012,
+      "pulse": 0.18,
+      "pulse_cycles": 2.4,
+      "color": "#611111B0",
+      "glow": 0.015,
+      "start": 0.0,
+      "end": 1.0,
+      "fade_in": 0.0,
+      "fade_out": 0.0
+    },
+    {
+      "type": "ring",
+      "center": [
+        0.5,
+        0.5
+      ],
+      "radius": [
+        0.16,
+        0.16
+      ],
+      "width": 0.008,
+      "pulse": 0.25,
+      "pulse_cycles": 3.0,
+      "color": "#FF666699",
+      "glow": 0.022,
+      "start": 0.04,
+      "end": 1.0,
+      "fade_in": 0.0,
+      "fade_out": 0.0,
+      "blend": "add"
+    },
+    {
+      "type": "sprite",
+      "path": "../sprites/red-core.png",
+      "position": [
+        0.5,
+        0.5
+      ],
+      "scale": [
+        0.13,
+        0.27
+      ],
+      "rotation": [
+        0,
+        18
+      ],
+      "glow": 0.022,
+      "start": 0.0,
+      "end": 1.0,
+      "fade_in": 0.0,
+      "fade_out": 0.1,
+      "blend": "add"
+    },
+    {
+      "type": "particles",
+      "origin": [
+        0.5,
+        0.5
+      ],
+      "count": 36,
+      "emit": [
+        0.12,
+        0.92
+      ],
+      "lifetime": [
+        0.2,
+        0.72
+      ],
+      "speed": [
+        0.05,
+        0.18
+      ],
+      "angle": [
+        0,
+        360
+      ],
+      "gravity": [
+        0.0,
+        0.0
+      ],
+      "size_px": [
+        2,
+        7
+      ],
+      "color": "#FF8383FF",
+      "glow": 0.012,
+      "start": 0.0,
+      "end": 1.0
+    },
+    {
+      "type": "burst",
+      "center": [
+        0.5,
+        0.5
+      ],
+      "radius": [
+        0.02,
+        0.09
+      ],
+      "rays": 14,
+      "ray_length": [
+        0.02,
+        0.08
+      ],
+      "ray_width_px": [
+        2,
+        4
+      ],
+      "color": "#B31D1DCC",
+      "core_color": "#FFF2F2FF",
+      "glow": 0.018,
+      "start": 0.0,
+      "end": 0.56,
+      "fade_in": 0.0,
+      "fade_out": 0.45,
+      "blend": "add"
+    },
+    {
+      "type": "burst",
+      "center": [
+        0.5,
+        0.5
+      ],
+      "radius": [
+        0.03,
+        0.12
+      ],
+      "rays": 18,
+      "ray_length": [
+        0.04,
+        0.12
+      ],
+      "ray_width_px": [
+        2,
+        6
+      ],
+      "color": "#FF5151E0",
+      "core_color": "#FFF6F6FF",
+      "glow": 0.028,
+      "start": 0.74,
+      "end": 1.0,
+      "fade_in": 0.0,
+      "fade_out": 0.35,
+      "blend": "add"
+    }
+  ],
+  "fvtt": {
+    "kind": "self charge",
+    "recommended_playback": "once"
+  }
+}
